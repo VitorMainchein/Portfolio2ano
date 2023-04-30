@@ -1,0 +1,20 @@
+//Reais para dólar
+<html>
+<head>
+<title>AUTORIA 1</title>
+<meta charset="utf-8">
+<html lang="en">
+<h1>Venha converter seus REAIS para DOLAR<h1>
+<button onclick="conversor()">Clique aqui e converta!</button>
+<script>
+var dolares = 0;
+function conversor(){
+var reais = parseInt(prompt("Digite quantos reais você quer converter :"))
+var dolar = parseFloat(prompt("Digite quanto esta valendo o dolar :"))
+dolares = reais / dolar;
+console.log(dolares);
+alert(dolares + " dolares");
+}
+</script>
+</head>
+<html>
