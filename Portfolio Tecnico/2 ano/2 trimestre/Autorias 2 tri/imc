@@ -1,0 +1,16 @@
+print("Calculadora IMC")
+
+peso = float(input("Digite o seu peso: "))
+altura = float(input("Digite o sua altura: "))
+IMC = peso / altura**2
+
+if IMC < 18.5:
+    print("Seu imc foi de ",IMC, "então você esta abaixo do peso: ")
+elif IMC >= 18.5 and IMC < 25:
+    print("Seu imc foi de ",IMC, "então você esta você esta dentro do peso: ")
+elif IMC >= 25 and IMC < 30:
+    print("Seu imc foi de ",IMC," entao você esta dentro do peso: ")
+else:
+    print("Seu imc foi de ",IMC," entao você esta obeso: ")
+    
+    #fim do programa
